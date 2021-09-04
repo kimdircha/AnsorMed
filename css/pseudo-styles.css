@@ -1,0 +1,46 @@
+/* Hover */
+.header-logo:hover .header-brand,
+.footer-logo:hover .footer-brand,
+.header__navigation-item a:hover,
+.footer__navigation-item a:hover {
+    color: #DE2E54;
+    cursor: pointer;
+}
+
+.site-header .admission:hover,
+.services-section .admission:hover {
+    background: none;
+    color: #DE2E54;
+    cursor: pointer;
+}
+
+.hero-section .admission:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #DE2E54;
+    border-color: #DE2E54;
+    cursor: pointer;
+}
+
+/* Focus */
+.header-logo:focus,
+.footer-logo:focus,
+.header__navigation-item a:focus,
+.footer__navigation-item a:focus,
+.admission:focus,
+.cta-button:focus {
+    opacity: 0.6;
+}
+
+.header-logo:focus .header-brand,
+.header__navigation-item a:focus {
+    color: #DE2E54;
+}
+
+.cta-button:focus {
+    background-color: #DE2E54;
+    border-color: #DE2E54;
+}
